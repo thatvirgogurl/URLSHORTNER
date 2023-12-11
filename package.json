@@ -1,0 +1,19 @@
+{
+  "name": "urlshortern",
+  "version": "1.0.0",
+  "description": "Desing a url shortner service that takes in a valid url and return a shortned url",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Monalisa",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2",
+    "mongoose": "^8.0.3",
+    "nodemon": "^3.0.2",
+    "shortid": "^2.2.16"
+  }
+}
